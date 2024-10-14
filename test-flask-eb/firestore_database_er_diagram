@@ -1,0 +1,933 @@
+digraph {
+	Assignment [shape=box]
+	Assignment_novX8OSkMeicjwRWhSL5_dueDate [label="dueDate: DatetimeWithNanoseconds" shape=oval]
+	Assignment -> Assignment_novX8OSkMeicjwRWhSL5_dueDate
+	Assignment_novX8OSkMeicjwRWhSL5_creatorId [label="creatorId: str" shape=oval]
+	Assignment -> Assignment_novX8OSkMeicjwRWhSL5_creatorId
+	Assignment_novX8OSkMeicjwRWhSL5_totalMarks [label="totalMarks: str" shape=oval]
+	Assignment -> Assignment_novX8OSkMeicjwRWhSL5_totalMarks
+	Assignment_novX8OSkMeicjwRWhSL5_assignmentId [label="assignmentId: str" shape=oval]
+	Assignment -> Assignment_novX8OSkMeicjwRWhSL5_assignmentId
+	Assignment_novX8OSkMeicjwRWhSL5_title [label="title: str" shape=oval]
+	Assignment -> Assignment_novX8OSkMeicjwRWhSL5_title
+	Assignment_novX8OSkMeicjwRWhSL5_question [label="question: str" shape=oval]
+	Assignment -> Assignment_novX8OSkMeicjwRWhSL5_question
+	Career [shape=box]
+	Career_0_careerDescription [label="careerDescription: str" shape=oval]
+	Career -> Career_0_careerDescription
+	Career_0_dscd [label="dscd: DatetimeWithNanoseconds" shape=oval]
+	Career -> Career_0_dscd
+	Career_0_careerExpertName [label="careerExpertName: str" shape=oval]
+	Career -> Career_0_careerExpertName
+	Career_0_careerExpertEmail [label="careerExpertEmail: str" shape=oval]
+	Career -> Career_0_careerExpertEmail
+	Career_0_careerExpertId [label="careerExpertId: str" shape=oval]
+	Career -> Career_0_careerExpertId
+	Career_0_CareerCategory [label="CareerCategory: str" shape=oval]
+	Career -> Career_0_CareerCategory
+	Career_0_relatedPathway [label="relatedPathway: list" shape=oval]
+	Career -> Career_0_relatedPathway
+	Career_0_possibleCareers [label="possibleCareers: list" shape=oval]
+	Career -> Career_0_possibleCareers
+	Career_1_careerDescription [label="careerDescription: str" shape=oval]
+	Career -> Career_1_careerDescription
+	Career_1_dscd [label="dscd: DatetimeWithNanoseconds" shape=oval]
+	Career -> Career_1_dscd
+	Career_1_careerExpertName [label="careerExpertName: str" shape=oval]
+	Career -> Career_1_careerExpertName
+	Career_1_careerExpertEmail [label="careerExpertEmail: str" shape=oval]
+	Career -> Career_1_careerExpertEmail
+	Career_1_careerExpertId [label="careerExpertId: str" shape=oval]
+	Career -> Career_1_careerExpertId
+	Career_1_relatedPathway [label="relatedPathway: list" shape=oval]
+	Career -> Career_1_relatedPathway
+	Career_1_careerCategory [label="careerCategory: str" shape=oval]
+	Career -> Career_1_careerCategory
+	Career_1_possibleCareers [label="possibleCareers: list" shape=oval]
+	Career -> Career_1_possibleCareers
+	Career_2_careerDescription [label="careerDescription: str" shape=oval]
+	Career -> Career_2_careerDescription
+	Career_2_dscd [label="dscd: DatetimeWithNanoseconds" shape=oval]
+	Career -> Career_2_dscd
+	Career_2_careerExpertName [label="careerExpertName: str" shape=oval]
+	Career -> Career_2_careerExpertName
+	Career_2_careerExpertEmail [label="careerExpertEmail: str" shape=oval]
+	Career -> Career_2_careerExpertEmail
+	Career_2_careerExpertId [label="careerExpertId: str" shape=oval]
+	Career -> Career_2_careerExpertId
+	Career_2_relatedPathway [label="relatedPathway: list" shape=oval]
+	Career -> Career_2_relatedPathway
+	Career_2_careerCategory [label="careerCategory: str" shape=oval]
+	Career -> Career_2_careerCategory
+	Career_2_possibleCareers [label="possibleCareers: list" shape=oval]
+	Career -> Career_2_possibleCareers
+	Career_3_careerDescription [label="careerDescription: str" shape=oval]
+	Career -> Career_3_careerDescription
+	Career_3_dscd [label="dscd: DatetimeWithNanoseconds" shape=oval]
+	Career -> Career_3_dscd
+	Career_3_careerExpertName [label="careerExpertName: str" shape=oval]
+	Career -> Career_3_careerExpertName
+	Career_3_careerExpertEmail [label="careerExpertEmail: str" shape=oval]
+	Career -> Career_3_careerExpertEmail
+	Career_3_careerExpertId [label="careerExpertId: str" shape=oval]
+	Career -> Career_3_careerExpertId
+	Career_3_relatedPathway [label="relatedPathway: list" shape=oval]
+	Career -> Career_3_relatedPathway
+	Career_3_careerCategory [label="careerCategory: str" shape=oval]
+	Career -> Career_3_careerCategory
+	Career_3_possibleCareers [label="possibleCareers: list" shape=oval]
+	Career -> Career_3_possibleCareers
+	Career_4_careerDescription [label="careerDescription: str" shape=oval]
+	Career -> Career_4_careerDescription
+	Career_4_dscd [label="dscd: DatetimeWithNanoseconds" shape=oval]
+	Career -> Career_4_dscd
+	Career_4_careerExpertName [label="careerExpertName: str" shape=oval]
+	Career -> Career_4_careerExpertName
+	Career_4_careerExpertEmail [label="careerExpertEmail: str" shape=oval]
+	Career -> Career_4_careerExpertEmail
+	Career_4_careerExpertId [label="careerExpertId: str" shape=oval]
+	Career -> Career_4_careerExpertId
+	Career_4_relatedPathway [label="relatedPathway: list" shape=oval]
+	Career -> Career_4_relatedPathway
+	Career_4_careerCategory [label="careerCategory: str" shape=oval]
+	Career -> Career_4_careerCategory
+	Career_4_possibleCareers [label="possibleCareers: list" shape=oval]
+	Career -> Career_4_possibleCareers
+	Career_5_careerDescription [label="careerDescription: str" shape=oval]
+	Career -> Career_5_careerDescription
+	Career_5_dscd [label="dscd: DatetimeWithNanoseconds" shape=oval]
+	Career -> Career_5_dscd
+	Career_5_careerExpertName [label="careerExpertName: str" shape=oval]
+	Career -> Career_5_careerExpertName
+	Career_5_careerExpertEmail [label="careerExpertEmail: str" shape=oval]
+	Career -> Career_5_careerExpertEmail
+	Career_5_careerExpertId [label="careerExpertId: str" shape=oval]
+	Career -> Career_5_careerExpertId
+	Career_5_relatedPathway [label="relatedPathway: list" shape=oval]
+	Career -> Career_5_relatedPathway
+	Career_5_careerCategory [label="careerCategory: str" shape=oval]
+	Career -> Career_5_careerCategory
+	Career_5_possibleCareers [label="possibleCareers: list" shape=oval]
+	Career -> Career_5_possibleCareers
+	Career_6_careerDescription [label="careerDescription: str" shape=oval]
+	Career -> Career_6_careerDescription
+	Career_6_dscd [label="dscd: DatetimeWithNanoseconds" shape=oval]
+	Career -> Career_6_dscd
+	Career_6_careerExpertName [label="careerExpertName: str" shape=oval]
+	Career -> Career_6_careerExpertName
+	Career_6_careerExpertEmail [label="careerExpertEmail: str" shape=oval]
+	Career -> Career_6_careerExpertEmail
+	Career_6_careerExpertId [label="careerExpertId: str" shape=oval]
+	Career -> Career_6_careerExpertId
+	Career_6_relatedPathway [label="relatedPathway: list" shape=oval]
+	Career -> Career_6_relatedPathway
+	Career_6_careerCategory [label="careerCategory: str" shape=oval]
+	Career -> Career_6_careerCategory
+	Career_6_possibleCareers [label="possibleCareers: list" shape=oval]
+	Career -> Career_6_possibleCareers
+	Chat_Room [shape=box]
+	Courses [shape=box]
+	Courses_3opl9kNY8qbZfrVfmFc9_duration [label="duration: str" shape=oval]
+	Courses -> Courses_3opl9kNY8qbZfrVfmFc9_duration
+	Courses_3opl9kNY8qbZfrVfmFc9_instructorId [label="instructorId: str" shape=oval]
+	Courses -> Courses_3opl9kNY8qbZfrVfmFc9_instructorId
+	Courses_3opl9kNY8qbZfrVfmFc9_thumbnail [label="thumbnail: str" shape=oval]
+	Courses -> Courses_3opl9kNY8qbZfrVfmFc9_thumbnail
+	Courses_3opl9kNY8qbZfrVfmFc9_subject [label="subject: str" shape=oval]
+	Courses -> Courses_3opl9kNY8qbZfrVfmFc9_subject
+	Courses_3opl9kNY8qbZfrVfmFc9_courseDescription [label="courseDescription: str" shape=oval]
+	Courses -> Courses_3opl9kNY8qbZfrVfmFc9_courseDescription
+	Courses_3opl9kNY8qbZfrVfmFc9_courseId [label="courseId: NoneType" shape=oval]
+	Courses -> Courses_3opl9kNY8qbZfrVfmFc9_courseId
+	Courses_3opl9kNY8qbZfrVfmFc9_courseTitle [label="courseTitle: str" shape=oval]
+	Courses -> Courses_3opl9kNY8qbZfrVfmFc9_courseTitle
+	Courses_3opl9kNY8qbZfrVfmFc9_keywords [label="keywords: list" shape=oval]
+	Courses -> Courses_3opl9kNY8qbZfrVfmFc9_keywords
+	Courses_3opl9kNY8qbZfrVfmFc9_courseLoc [label="courseLoc: str" shape=oval]
+	Courses -> Courses_3opl9kNY8qbZfrVfmFc9_courseLoc
+	Courses_3opl9kNY8qbZfrVfmFc9_instructorName [label="instructorName: str" shape=oval]
+	Courses -> Courses_3opl9kNY8qbZfrVfmFc9_instructorName
+	Courses_3opl9kNY8qbZfrVfmFc9_difficultyLevel [label="difficultyLevel: str" shape=oval]
+	Courses -> Courses_3opl9kNY8qbZfrVfmFc9_difficultyLevel
+	Courses_DtaNeQGfNdnYv9zIZ2VV_duration [label="duration: str" shape=oval]
+	Courses -> Courses_DtaNeQGfNdnYv9zIZ2VV_duration
+	Courses_DtaNeQGfNdnYv9zIZ2VV_subject [label="subject: str" shape=oval]
+	Courses -> Courses_DtaNeQGfNdnYv9zIZ2VV_subject
+	Courses_DtaNeQGfNdnYv9zIZ2VV_thumbnail [label="thumbnail: str" shape=oval]
+	Courses -> Courses_DtaNeQGfNdnYv9zIZ2VV_thumbnail
+	Courses_DtaNeQGfNdnYv9zIZ2VV_instructorId [label="instructorId: str" shape=oval]
+	Courses -> Courses_DtaNeQGfNdnYv9zIZ2VV_instructorId
+	Courses_DtaNeQGfNdnYv9zIZ2VV_courseDescription [label="courseDescription: str" shape=oval]
+	Courses -> Courses_DtaNeQGfNdnYv9zIZ2VV_courseDescription
+	Courses_DtaNeQGfNdnYv9zIZ2VV_keywords [label="keywords: list" shape=oval]
+	Courses -> Courses_DtaNeQGfNdnYv9zIZ2VV_keywords
+	Courses_DtaNeQGfNdnYv9zIZ2VV_courseTitle [label="courseTitle: str" shape=oval]
+	Courses -> Courses_DtaNeQGfNdnYv9zIZ2VV_courseTitle
+	Courses_DtaNeQGfNdnYv9zIZ2VV_courseId [label="courseId: NoneType" shape=oval]
+	Courses -> Courses_DtaNeQGfNdnYv9zIZ2VV_courseId
+	Courses_DtaNeQGfNdnYv9zIZ2VV_instructorName [label="instructorName: str" shape=oval]
+	Courses -> Courses_DtaNeQGfNdnYv9zIZ2VV_instructorName
+	Courses_DtaNeQGfNdnYv9zIZ2VV_difficultyLevel [label="difficultyLevel: str" shape=oval]
+	Courses -> Courses_DtaNeQGfNdnYv9zIZ2VV_difficultyLevel
+	Courses_DtaNeQGfNdnYv9zIZ2VV_courseLoc [label="courseLoc: str" shape=oval]
+	Courses -> Courses_DtaNeQGfNdnYv9zIZ2VV_courseLoc
+	Courses_IwSa7VzGKaq7HiBurZp9_duration [label="duration: str" shape=oval]
+	Courses -> Courses_IwSa7VzGKaq7HiBurZp9_duration
+	Courses_IwSa7VzGKaq7HiBurZp9_subject [label="subject: str" shape=oval]
+	Courses -> Courses_IwSa7VzGKaq7HiBurZp9_subject
+	Courses_IwSa7VzGKaq7HiBurZp9_thumbnail [label="thumbnail: str" shape=oval]
+	Courses -> Courses_IwSa7VzGKaq7HiBurZp9_thumbnail
+	Courses_IwSa7VzGKaq7HiBurZp9_courseDescription [label="courseDescription: str" shape=oval]
+	Courses -> Courses_IwSa7VzGKaq7HiBurZp9_courseDescription
+	Courses_IwSa7VzGKaq7HiBurZp9_instructorId [label="instructorId: str" shape=oval]
+	Courses -> Courses_IwSa7VzGKaq7HiBurZp9_instructorId
+	Courses_IwSa7VzGKaq7HiBurZp9_keywords [label="keywords: list" shape=oval]
+	Courses -> Courses_IwSa7VzGKaq7HiBurZp9_keywords
+	Courses_IwSa7VzGKaq7HiBurZp9_courseTitle [label="courseTitle: str" shape=oval]
+	Courses -> Courses_IwSa7VzGKaq7HiBurZp9_courseTitle
+	Courses_IwSa7VzGKaq7HiBurZp9_courseId [label="courseId: NoneType" shape=oval]
+	Courses -> Courses_IwSa7VzGKaq7HiBurZp9_courseId
+	Courses_IwSa7VzGKaq7HiBurZp9_instructorName [label="instructorName: str" shape=oval]
+	Courses -> Courses_IwSa7VzGKaq7HiBurZp9_instructorName
+	Courses_IwSa7VzGKaq7HiBurZp9_difficultyLevel [label="difficultyLevel: str" shape=oval]
+	Courses -> Courses_IwSa7VzGKaq7HiBurZp9_difficultyLevel
+	Courses_IwSa7VzGKaq7HiBurZp9_courseLoc [label="courseLoc: str" shape=oval]
+	Courses -> Courses_IwSa7VzGKaq7HiBurZp9_courseLoc
+	Courses_TsfoN6Q8HRvuudN86QBz_duration [label="duration: str" shape=oval]
+	Courses -> Courses_TsfoN6Q8HRvuudN86QBz_duration
+	Courses_TsfoN6Q8HRvuudN86QBz_subject [label="subject: str" shape=oval]
+	Courses -> Courses_TsfoN6Q8HRvuudN86QBz_subject
+	Courses_TsfoN6Q8HRvuudN86QBz_thumbnail [label="thumbnail: str" shape=oval]
+	Courses -> Courses_TsfoN6Q8HRvuudN86QBz_thumbnail
+	Courses_TsfoN6Q8HRvuudN86QBz_instructorId [label="instructorId: str" shape=oval]
+	Courses -> Courses_TsfoN6Q8HRvuudN86QBz_instructorId
+	Courses_TsfoN6Q8HRvuudN86QBz_courseDescription [label="courseDescription: str" shape=oval]
+	Courses -> Courses_TsfoN6Q8HRvuudN86QBz_courseDescription
+	Courses_TsfoN6Q8HRvuudN86QBz_keywords [label="keywords: list" shape=oval]
+	Courses -> Courses_TsfoN6Q8HRvuudN86QBz_keywords
+	Courses_TsfoN6Q8HRvuudN86QBz_courseTitle [label="courseTitle: str" shape=oval]
+	Courses -> Courses_TsfoN6Q8HRvuudN86QBz_courseTitle
+	Courses_TsfoN6Q8HRvuudN86QBz_courseId [label="courseId: NoneType" shape=oval]
+	Courses -> Courses_TsfoN6Q8HRvuudN86QBz_courseId
+	Courses_TsfoN6Q8HRvuudN86QBz_instructorName [label="instructorName: str" shape=oval]
+	Courses -> Courses_TsfoN6Q8HRvuudN86QBz_instructorName
+	Courses_TsfoN6Q8HRvuudN86QBz_difficultyLevel [label="difficultyLevel: str" shape=oval]
+	Courses -> Courses_TsfoN6Q8HRvuudN86QBz_difficultyLevel
+	Courses_TsfoN6Q8HRvuudN86QBz_courseLoc [label="courseLoc: str" shape=oval]
+	Courses -> Courses_TsfoN6Q8HRvuudN86QBz_courseLoc
+	Courses_tuBrUAA8FMaisWli775P_duration [label="duration: str" shape=oval]
+	Courses -> Courses_tuBrUAA8FMaisWli775P_duration
+	Courses_tuBrUAA8FMaisWli775P_subject [label="subject: str" shape=oval]
+	Courses -> Courses_tuBrUAA8FMaisWli775P_subject
+	Courses_tuBrUAA8FMaisWli775P_thumbnail [label="thumbnail: str" shape=oval]
+	Courses -> Courses_tuBrUAA8FMaisWli775P_thumbnail
+	Courses_tuBrUAA8FMaisWli775P_instructorId [label="instructorId: str" shape=oval]
+	Courses -> Courses_tuBrUAA8FMaisWli775P_instructorId
+	Courses_tuBrUAA8FMaisWli775P_courseDescription [label="courseDescription: str" shape=oval]
+	Courses -> Courses_tuBrUAA8FMaisWli775P_courseDescription
+	Courses_tuBrUAA8FMaisWli775P_keywords [label="keywords: list" shape=oval]
+	Courses -> Courses_tuBrUAA8FMaisWli775P_keywords
+	Courses_tuBrUAA8FMaisWli775P_courseTitle [label="courseTitle: str" shape=oval]
+	Courses -> Courses_tuBrUAA8FMaisWli775P_courseTitle
+	Courses_tuBrUAA8FMaisWli775P_courseId [label="courseId: NoneType" shape=oval]
+	Courses -> Courses_tuBrUAA8FMaisWli775P_courseId
+	Courses_tuBrUAA8FMaisWli775P_instructorName [label="instructorName: str" shape=oval]
+	Courses -> Courses_tuBrUAA8FMaisWli775P_instructorName
+	Courses_tuBrUAA8FMaisWli775P_difficultyLevel [label="difficultyLevel: str" shape=oval]
+	Courses -> Courses_tuBrUAA8FMaisWli775P_difficultyLevel
+	Courses_tuBrUAA8FMaisWli775P_courseLoc [label="courseLoc: str" shape=oval]
+	Courses -> Courses_tuBrUAA8FMaisWli775P_courseLoc
+	Courses_zionCmfIUgwnAGhBbs2k_duration [label="duration: str" shape=oval]
+	Courses -> Courses_zionCmfIUgwnAGhBbs2k_duration
+	Courses_zionCmfIUgwnAGhBbs2k_subject [label="subject: str" shape=oval]
+	Courses -> Courses_zionCmfIUgwnAGhBbs2k_subject
+	Courses_zionCmfIUgwnAGhBbs2k_thumbnail [label="thumbnail: str" shape=oval]
+	Courses -> Courses_zionCmfIUgwnAGhBbs2k_thumbnail
+	Courses_zionCmfIUgwnAGhBbs2k_instructorId [label="instructorId: str" shape=oval]
+	Courses -> Courses_zionCmfIUgwnAGhBbs2k_instructorId
+	Courses_zionCmfIUgwnAGhBbs2k_courseDescription [label="courseDescription: str" shape=oval]
+	Courses -> Courses_zionCmfIUgwnAGhBbs2k_courseDescription
+	Courses_zionCmfIUgwnAGhBbs2k_keywords [label="keywords: list" shape=oval]
+	Courses -> Courses_zionCmfIUgwnAGhBbs2k_keywords
+	Courses_zionCmfIUgwnAGhBbs2k_courseTitle [label="courseTitle: str" shape=oval]
+	Courses -> Courses_zionCmfIUgwnAGhBbs2k_courseTitle
+	Courses_zionCmfIUgwnAGhBbs2k_courseId [label="courseId: NoneType" shape=oval]
+	Courses -> Courses_zionCmfIUgwnAGhBbs2k_courseId
+	Courses_zionCmfIUgwnAGhBbs2k_instructorName [label="instructorName: str" shape=oval]
+	Courses -> Courses_zionCmfIUgwnAGhBbs2k_instructorName
+	Courses_zionCmfIUgwnAGhBbs2k_difficultyLevel [label="difficultyLevel: str" shape=oval]
+	Courses -> Courses_zionCmfIUgwnAGhBbs2k_difficultyLevel
+	Courses_zionCmfIUgwnAGhBbs2k_courseLoc [label="courseLoc: str" shape=oval]
+	Courses -> Courses_zionCmfIUgwnAGhBbs2k_courseLoc
+	Mentors [shape=box]
+	Mentors_Czy9iSOmIVADPvC3yORj_mentorId [label="mentorId: str" shape=oval]
+	Mentors -> Mentors_Czy9iSOmIVADPvC3yORj_mentorId
+	Mentors_Czy9iSOmIVADPvC3yORj_mentorName [label="mentorName: str" shape=oval]
+	Mentors -> Mentors_Czy9iSOmIVADPvC3yORj_mentorName
+	Quiz [shape=box]
+	Quiz_93Ywyp4PraMbybeACDM6_options [label="options: list" shape=oval]
+	Quiz -> Quiz_93Ywyp4PraMbybeACDM6_options
+	Quiz_93Ywyp4PraMbybeACDM6_correctOption [label="correctOption: str" shape=oval]
+	Quiz -> Quiz_93Ywyp4PraMbybeACDM6_correctOption
+	Quiz_93Ywyp4PraMbybeACDM6_question [label="question: str" shape=oval]
+	Quiz -> Quiz_93Ywyp4PraMbybeACDM6_question
+	Quiz_93Ywyp4PraMbybeACDM6_quizId [label="quizId: NoneType" shape=oval]
+	Quiz -> Quiz_93Ywyp4PraMbybeACDM6_quizId
+	Quiz_hE3ZLPUQXuOZw8dCybSc_options [label="options: list" shape=oval]
+	Quiz -> Quiz_hE3ZLPUQXuOZw8dCybSc_options
+	Quiz_hE3ZLPUQXuOZw8dCybSc_correctOption [label="correctOption: str" shape=oval]
+	Quiz -> Quiz_hE3ZLPUQXuOZw8dCybSc_correctOption
+	Quiz_hE3ZLPUQXuOZw8dCybSc_question [label="question: str" shape=oval]
+	Quiz -> Quiz_hE3ZLPUQXuOZw8dCybSc_question
+	Quiz_hE3ZLPUQXuOZw8dCybSc_quizId [label="quizId: NoneType" shape=oval]
+	Quiz -> Quiz_hE3ZLPUQXuOZw8dCybSc_quizId
+	Quiz_wDyZvgNmF9XB70Uzw8RD_options [label="options: list" shape=oval]
+	Quiz -> Quiz_wDyZvgNmF9XB70Uzw8RD_options
+	Quiz_wDyZvgNmF9XB70Uzw8RD_correctOption [label="correctOption: str" shape=oval]
+	Quiz -> Quiz_wDyZvgNmF9XB70Uzw8RD_correctOption
+	Quiz_wDyZvgNmF9XB70Uzw8RD_question [label="question: str" shape=oval]
+	Quiz -> Quiz_wDyZvgNmF9XB70Uzw8RD_question
+	Quiz_wDyZvgNmF9XB70Uzw8RD_quizId [label="quizId: NoneType" shape=oval]
+	Quiz -> Quiz_wDyZvgNmF9XB70Uzw8RD_quizId
+	Teachers [shape=box]
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_uid [label="uid: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_uid
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_lastName [label="lastName: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_lastName
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_firstName [label="firstName: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_firstName
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_organizationName [label="organizationName: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_organizationName
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_cddaAffiliation [label="cddaAffiliation: bool" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_cddaAffiliation
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_zipCode [label="zipCode: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_zipCode
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_dateOfBirth
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_isMentor [label="isMentor: bool" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_isMentor
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_phoneNo [label="phoneNo: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_phoneNo
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_city [label="city: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_city
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_image [label="image: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_image
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_doc2 [label="doc2: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_doc2
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_doc1 [label="doc1: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_doc1
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_subjectPreference [label="subjectPreference: list" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_subjectPreference
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_address [label="address: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_address
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_state [label="state: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_state
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_gender [label="gender: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_gender
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_email [label="email: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_email
+	Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_username [label="username: str" shape=oval]
+	Teachers -> Teachers_J88p12heDcMDwa0JAdLM4CqX9Kh2_username
+	Users [shape=box]
+	Users_2Ua1b0q8tmqJPpnLDtPQ_uid [label="uid: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_uid
+	Users_2Ua1b0q8tmqJPpnLDtPQ_lastName [label="lastName: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_lastName
+	Users_2Ua1b0q8tmqJPpnLDtPQ_firstName [label="firstName: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_firstName
+	Users_2Ua1b0q8tmqJPpnLDtPQ_deviceToken [label="deviceToken: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_deviceToken
+	Users_2Ua1b0q8tmqJPpnLDtPQ_zipCode [label="zipCode: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_zipCode
+	Users_2Ua1b0q8tmqJPpnLDtPQ_phoneNo [label="phoneNo: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_phoneNo
+	Users_2Ua1b0q8tmqJPpnLDtPQ_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_dateOfBirth
+	Users_2Ua1b0q8tmqJPpnLDtPQ_mentorId [label="mentorId: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_mentorId
+	Users_2Ua1b0q8tmqJPpnLDtPQ_city [label="city: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_city
+	Users_2Ua1b0q8tmqJPpnLDtPQ_image [label="image: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_image
+	Users_2Ua1b0q8tmqJPpnLDtPQ_doc2 [label="doc2: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_doc2
+	Users_2Ua1b0q8tmqJPpnLDtPQ_doc1 [label="doc1: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_doc1
+	Users_2Ua1b0q8tmqJPpnLDtPQ_address [label="address: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_address
+	Users_2Ua1b0q8tmqJPpnLDtPQ_gender [label="gender: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_gender
+	Users_2Ua1b0q8tmqJPpnLDtPQ_state [label="state: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_state
+	Users_2Ua1b0q8tmqJPpnLDtPQ_username [label="username: str" shape=oval]
+	Users -> Users_2Ua1b0q8tmqJPpnLDtPQ_username
+	Users_A66hPHoD1qYsww6D6Hd3_Age [label="Age: str" shape=oval]
+	Users -> Users_A66hPHoD1qYsww6D6Hd3_Age
+	Users_A66hPHoD1qYsww6D6Hd3_DOB [label="DOB: str" shape=oval]
+	Users -> Users_A66hPHoD1qYsww6D6Hd3_DOB
+	Users_A66hPHoD1qYsww6D6Hd3_FullName [label="FullName: str" shape=oval]
+	Users -> Users_A66hPHoD1qYsww6D6Hd3_FullName
+	Users_ISV3eNfvsKw4nv48tvZd_Age [label="Age: str" shape=oval]
+	Users -> Users_ISV3eNfvsKw4nv48tvZd_Age
+	Users_ISV3eNfvsKw4nv48tvZd_DOB [label="DOB: str" shape=oval]
+	Users -> Users_ISV3eNfvsKw4nv48tvZd_DOB
+	Users_ISV3eNfvsKw4nv48tvZd_FullName [label="FullName: str" shape=oval]
+	Users -> Users_ISV3eNfvsKw4nv48tvZd_FullName
+	Users_J88p12heDcMDwa0JAdLM4CqX9Kh2_uid [label="uid: str" shape=oval]
+	Users -> Users_J88p12heDcMDwa0JAdLM4CqX9Kh2_uid
+	Users_J88p12heDcMDwa0JAdLM4CqX9Kh2_email [label="email: str" shape=oval]
+	Users -> Users_J88p12heDcMDwa0JAdLM4CqX9Kh2_email
+	Users_LYUOBc5mGtMoMkKWhCJK_uid [label="uid: str" shape=oval]
+	Users -> Users_LYUOBc5mGtMoMkKWhCJK_uid
+	Users_LYUOBc5mGtMoMkKWhCJK_lastName [label="lastName: str" shape=oval]
+	Users -> Users_LYUOBc5mGtMoMkKWhCJK_lastName
+	Users_LYUOBc5mGtMoMkKWhCJK_firstName [label="firstName: str" shape=oval]
+	Users -> Users_LYUOBc5mGtMoMkKWhCJK_firstName
+	Users_LYUOBc5mGtMoMkKWhCJK_zipCode [label="zipCode: str" shape=oval]
+	Users -> Users_LYUOBc5mGtMoMkKWhCJK_zipCode
+	Users_LYUOBc5mGtMoMkKWhCJK_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Users -> Users_LYUOBc5mGtMoMkKWhCJK_dateOfBirth
+	Users_LYUOBc5mGtMoMkKWhCJK_phoneNo [label="phoneNo: str" shape=oval]
+	Users -> Users_LYUOBc5mGtMoMkKWhCJK_phoneNo
+	Users_LYUOBc5mGtMoMkKWhCJK_city [label="city: str" shape=oval]
+	Users -> Users_LYUOBc5mGtMoMkKWhCJK_city
+	Users_LYUOBc5mGtMoMkKWhCJK_image [label="image: str" shape=oval]
+	Users -> Users_LYUOBc5mGtMoMkKWhCJK_image
+	Users_LYUOBc5mGtMoMkKWhCJK_doc2 [label="doc2: str" shape=oval]
+	Users -> Users_LYUOBc5mGtMoMkKWhCJK_doc2
+	Users_LYUOBc5mGtMoMkKWhCJK_doc1 [label="doc1: str" shape=oval]
+	Users -> Users_LYUOBc5mGtMoMkKWhCJK_doc1
+	Users_LYUOBc5mGtMoMkKWhCJK_address [label="address: str" shape=oval]
+	Users -> Users_LYUOBc5mGtMoMkKWhCJK_address
+	Users_LYUOBc5mGtMoMkKWhCJK_gender [label="gender: str" shape=oval]
+	Users -> Users_LYUOBc5mGtMoMkKWhCJK_gender
+	Users_LYUOBc5mGtMoMkKWhCJK_state [label="state: str" shape=oval]
+	Users -> Users_LYUOBc5mGtMoMkKWhCJK_state
+	Users_LYUOBc5mGtMoMkKWhCJK_username [label="username: str" shape=oval]
+	Users -> Users_LYUOBc5mGtMoMkKWhCJK_username
+	Users_LvxAb39sNZgXJvY7YXkg_Age [label="Age: str" shape=oval]
+	Users -> Users_LvxAb39sNZgXJvY7YXkg_Age
+	Users_LvxAb39sNZgXJvY7YXkg_DOB [label="DOB: str" shape=oval]
+	Users -> Users_LvxAb39sNZgXJvY7YXkg_DOB
+	Users_LvxAb39sNZgXJvY7YXkg_FullName [label="FullName: str" shape=oval]
+	Users -> Users_LvxAb39sNZgXJvY7YXkg_FullName
+	Users_M9js95LVDb20afuB9URI_uid [label="uid: NoneType" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_uid
+	Users_M9js95LVDb20afuB9URI_lastName [label="lastName: str" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_lastName
+	Users_M9js95LVDb20afuB9URI_firstName [label="firstName: str" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_firstName
+	Users_M9js95LVDb20afuB9URI_deviceToken [label="deviceToken: str" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_deviceToken
+	Users_M9js95LVDb20afuB9URI_zipCode [label="zipCode: str" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_zipCode
+	Users_M9js95LVDb20afuB9URI_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_dateOfBirth
+	Users_M9js95LVDb20afuB9URI_phoneNo [label="phoneNo: str" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_phoneNo
+	Users_M9js95LVDb20afuB9URI_city [label="city: str" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_city
+	Users_M9js95LVDb20afuB9URI_image [label="image: str" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_image
+	Users_M9js95LVDb20afuB9URI_doc2 [label="doc2: str" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_doc2
+	Users_M9js95LVDb20afuB9URI_doc1 [label="doc1: str" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_doc1
+	Users_M9js95LVDb20afuB9URI_address [label="address: str" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_address
+	Users_M9js95LVDb20afuB9URI_gender [label="gender: str" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_gender
+	Users_M9js95LVDb20afuB9URI_state [label="state: str" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_state
+	Users_M9js95LVDb20afuB9URI_username [label="username: str" shape=oval]
+	Users -> Users_M9js95LVDb20afuB9URI_username
+	Users_MY7GvMHrB3AYcUff1M2P_Age [label="Age: str" shape=oval]
+	Users -> Users_MY7GvMHrB3AYcUff1M2P_Age
+	Users_MY7GvMHrB3AYcUff1M2P_DOB [label="DOB: str" shape=oval]
+	Users -> Users_MY7GvMHrB3AYcUff1M2P_DOB
+	Users_MY7GvMHrB3AYcUff1M2P_FullName [label="FullName: str" shape=oval]
+	Users -> Users_MY7GvMHrB3AYcUff1M2P_FullName
+	Users_Rygh8dOrx3BhLFG6YBWn_Age [label="Age: str" shape=oval]
+	Users -> Users_Rygh8dOrx3BhLFG6YBWn_Age
+	Users_Rygh8dOrx3BhLFG6YBWn_DOB [label="DOB: str" shape=oval]
+	Users -> Users_Rygh8dOrx3BhLFG6YBWn_DOB
+	Users_Rygh8dOrx3BhLFG6YBWn_FullName [label="FullName: str" shape=oval]
+	Users -> Users_Rygh8dOrx3BhLFG6YBWn_FullName
+	Users_SEAZG9Wjol6c0YRJDAWC_Age [label="Age: str" shape=oval]
+	Users -> Users_SEAZG9Wjol6c0YRJDAWC_Age
+	Users_SEAZG9Wjol6c0YRJDAWC_DOB [label="DOB: str" shape=oval]
+	Users -> Users_SEAZG9Wjol6c0YRJDAWC_DOB
+	Users_SEAZG9Wjol6c0YRJDAWC_Name [label="Name: str" shape=oval]
+	Users -> Users_SEAZG9Wjol6c0YRJDAWC_Name
+	Users_VZEcrpNpVVjR077TbIXJ_phoneNo [label="phoneNo: str" shape=oval]
+	Users -> Users_VZEcrpNpVVjR077TbIXJ_phoneNo
+	Users_VZEcrpNpVVjR077TbIXJ_lastName [label="lastName: str" shape=oval]
+	Users -> Users_VZEcrpNpVVjR077TbIXJ_lastName
+	Users_VZEcrpNpVVjR077TbIXJ_firstName [label="firstName: str" shape=oval]
+	Users -> Users_VZEcrpNpVVjR077TbIXJ_firstName
+	Users_VZEcrpNpVVjR077TbIXJ_image [label="image: str" shape=oval]
+	Users -> Users_VZEcrpNpVVjR077TbIXJ_image
+	Users_VZEcrpNpVVjR077TbIXJ_doc2 [label="doc2: str" shape=oval]
+	Users -> Users_VZEcrpNpVVjR077TbIXJ_doc2
+	Users_VZEcrpNpVVjR077TbIXJ_doc1 [label="doc1: str" shape=oval]
+	Users -> Users_VZEcrpNpVVjR077TbIXJ_doc1
+	Users_VZEcrpNpVVjR077TbIXJ_zipCode [label="zipCode: str" shape=oval]
+	Users -> Users_VZEcrpNpVVjR077TbIXJ_zipCode
+	Users_VZEcrpNpVVjR077TbIXJ_address [label="address: str" shape=oval]
+	Users -> Users_VZEcrpNpVVjR077TbIXJ_address
+	Users_VZEcrpNpVVjR077TbIXJ_gender [label="gender: str" shape=oval]
+	Users -> Users_VZEcrpNpVVjR077TbIXJ_gender
+	Users_VZEcrpNpVVjR077TbIXJ_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Users -> Users_VZEcrpNpVVjR077TbIXJ_dateOfBirth
+	Users_VZEcrpNpVVjR077TbIXJ_city [label="city: str" shape=oval]
+	Users -> Users_VZEcrpNpVVjR077TbIXJ_city
+	Users_VZEcrpNpVVjR077TbIXJ_username [label="username: str" shape=oval]
+	Users -> Users_VZEcrpNpVVjR077TbIXJ_username
+	Users_VZEcrpNpVVjR077TbIXJ_state [label="state: str" shape=oval]
+	Users -> Users_VZEcrpNpVVjR077TbIXJ_state
+	Users_X1roCeh1bQOlouuzYwGilSr0obX2_uid [label="uid: str" shape=oval]
+	Users -> Users_X1roCeh1bQOlouuzYwGilSr0obX2_uid
+	Users_X1roCeh1bQOlouuzYwGilSr0obX2_email [label="email: str" shape=oval]
+	Users -> Users_X1roCeh1bQOlouuzYwGilSr0obX2_email
+	Users_Zb3IakXtqztwfEd7Riah_phoneNo [label="phoneNo: str" shape=oval]
+	Users -> Users_Zb3IakXtqztwfEd7Riah_phoneNo
+	Users_Zb3IakXtqztwfEd7Riah_lastName [label="lastName: str" shape=oval]
+	Users -> Users_Zb3IakXtqztwfEd7Riah_lastName
+	Users_Zb3IakXtqztwfEd7Riah_firstName [label="firstName: str" shape=oval]
+	Users -> Users_Zb3IakXtqztwfEd7Riah_firstName
+	Users_Zb3IakXtqztwfEd7Riah_image [label="image: str" shape=oval]
+	Users -> Users_Zb3IakXtqztwfEd7Riah_image
+	Users_Zb3IakXtqztwfEd7Riah_doc2 [label="doc2: str" shape=oval]
+	Users -> Users_Zb3IakXtqztwfEd7Riah_doc2
+	Users_Zb3IakXtqztwfEd7Riah_doc1 [label="doc1: str" shape=oval]
+	Users -> Users_Zb3IakXtqztwfEd7Riah_doc1
+	Users_Zb3IakXtqztwfEd7Riah_zipCode [label="zipCode: str" shape=oval]
+	Users -> Users_Zb3IakXtqztwfEd7Riah_zipCode
+	Users_Zb3IakXtqztwfEd7Riah_address [label="address: str" shape=oval]
+	Users -> Users_Zb3IakXtqztwfEd7Riah_address
+	Users_Zb3IakXtqztwfEd7Riah_gender [label="gender: str" shape=oval]
+	Users -> Users_Zb3IakXtqztwfEd7Riah_gender
+	Users_Zb3IakXtqztwfEd7Riah_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Users -> Users_Zb3IakXtqztwfEd7Riah_dateOfBirth
+	Users_Zb3IakXtqztwfEd7Riah_city [label="city: str" shape=oval]
+	Users -> Users_Zb3IakXtqztwfEd7Riah_city
+	Users_Zb3IakXtqztwfEd7Riah_username [label="username: str" shape=oval]
+	Users -> Users_Zb3IakXtqztwfEd7Riah_username
+	Users_Zb3IakXtqztwfEd7Riah_state [label="state: str" shape=oval]
+	Users -> Users_Zb3IakXtqztwfEd7Riah_state
+	Users_f10PLs2CPDdR4wARWBLN_phoneNo [label="phoneNo: str" shape=oval]
+	Users -> Users_f10PLs2CPDdR4wARWBLN_phoneNo
+	Users_f10PLs2CPDdR4wARWBLN_lastName [label="lastName: str" shape=oval]
+	Users -> Users_f10PLs2CPDdR4wARWBLN_lastName
+	Users_f10PLs2CPDdR4wARWBLN_firstName [label="firstName: str" shape=oval]
+	Users -> Users_f10PLs2CPDdR4wARWBLN_firstName
+	Users_f10PLs2CPDdR4wARWBLN_image [label="image: str" shape=oval]
+	Users -> Users_f10PLs2CPDdR4wARWBLN_image
+	Users_f10PLs2CPDdR4wARWBLN_doc2 [label="doc2: str" shape=oval]
+	Users -> Users_f10PLs2CPDdR4wARWBLN_doc2
+	Users_f10PLs2CPDdR4wARWBLN_doc1 [label="doc1: str" shape=oval]
+	Users -> Users_f10PLs2CPDdR4wARWBLN_doc1
+	Users_f10PLs2CPDdR4wARWBLN_zipCode [label="zipCode: str" shape=oval]
+	Users -> Users_f10PLs2CPDdR4wARWBLN_zipCode
+	Users_f10PLs2CPDdR4wARWBLN_address [label="address: str" shape=oval]
+	Users -> Users_f10PLs2CPDdR4wARWBLN_address
+	Users_f10PLs2CPDdR4wARWBLN_gender [label="gender: str" shape=oval]
+	Users -> Users_f10PLs2CPDdR4wARWBLN_gender
+	Users_f10PLs2CPDdR4wARWBLN_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Users -> Users_f10PLs2CPDdR4wARWBLN_dateOfBirth
+	Users_f10PLs2CPDdR4wARWBLN_city [label="city: str" shape=oval]
+	Users -> Users_f10PLs2CPDdR4wARWBLN_city
+	Users_f10PLs2CPDdR4wARWBLN_username [label="username: str" shape=oval]
+	Users -> Users_f10PLs2CPDdR4wARWBLN_username
+	Users_f10PLs2CPDdR4wARWBLN_state [label="state: str" shape=oval]
+	Users -> Users_f10PLs2CPDdR4wARWBLN_state
+	Users_kNFmeVZMgF60QQY8TTo9_uid [label="uid: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_uid
+	Users_kNFmeVZMgF60QQY8TTo9_lastName [label="lastName: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_lastName
+	Users_kNFmeVZMgF60QQY8TTo9_firstName [label="firstName: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_firstName
+	Users_kNFmeVZMgF60QQY8TTo9_assignedMentorId [label="assignedMentorId: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_assignedMentorId
+	Users_kNFmeVZMgF60QQY8TTo9_zipCode [label="zipCode: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_zipCode
+	Users_kNFmeVZMgF60QQY8TTo9_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_dateOfBirth
+	Users_kNFmeVZMgF60QQY8TTo9_phoneNo [label="phoneNo: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_phoneNo
+	Users_kNFmeVZMgF60QQY8TTo9_city [label="city: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_city
+	Users_kNFmeVZMgF60QQY8TTo9_image [label="image: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_image
+	Users_kNFmeVZMgF60QQY8TTo9_doc2 [label="doc2: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_doc2
+	Users_kNFmeVZMgF60QQY8TTo9_doc1 [label="doc1: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_doc1
+	Users_kNFmeVZMgF60QQY8TTo9_address [label="address: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_address
+	Users_kNFmeVZMgF60QQY8TTo9_gender [label="gender: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_gender
+	Users_kNFmeVZMgF60QQY8TTo9_state [label="state: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_state
+	Users_kNFmeVZMgF60QQY8TTo9_username [label="username: str" shape=oval]
+	Users -> Users_kNFmeVZMgF60QQY8TTo9_username
+	Users_mpmFBisfcBDqTzuxVTHy_phoneNo [label="phoneNo: str" shape=oval]
+	Users -> Users_mpmFBisfcBDqTzuxVTHy_phoneNo
+	Users_mpmFBisfcBDqTzuxVTHy_lastName [label="lastName: str" shape=oval]
+	Users -> Users_mpmFBisfcBDqTzuxVTHy_lastName
+	Users_mpmFBisfcBDqTzuxVTHy_firstName [label="firstName: str" shape=oval]
+	Users -> Users_mpmFBisfcBDqTzuxVTHy_firstName
+	Users_mpmFBisfcBDqTzuxVTHy_image [label="image: str" shape=oval]
+	Users -> Users_mpmFBisfcBDqTzuxVTHy_image
+	Users_mpmFBisfcBDqTzuxVTHy_doc2 [label="doc2: str" shape=oval]
+	Users -> Users_mpmFBisfcBDqTzuxVTHy_doc2
+	Users_mpmFBisfcBDqTzuxVTHy_doc1 [label="doc1: str" shape=oval]
+	Users -> Users_mpmFBisfcBDqTzuxVTHy_doc1
+	Users_mpmFBisfcBDqTzuxVTHy_zipCode [label="zipCode: str" shape=oval]
+	Users -> Users_mpmFBisfcBDqTzuxVTHy_zipCode
+	Users_mpmFBisfcBDqTzuxVTHy_address [label="address: str" shape=oval]
+	Users -> Users_mpmFBisfcBDqTzuxVTHy_address
+	Users_mpmFBisfcBDqTzuxVTHy_gender [label="gender: str" shape=oval]
+	Users -> Users_mpmFBisfcBDqTzuxVTHy_gender
+	Users_mpmFBisfcBDqTzuxVTHy_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Users -> Users_mpmFBisfcBDqTzuxVTHy_dateOfBirth
+	Users_mpmFBisfcBDqTzuxVTHy_city [label="city: str" shape=oval]
+	Users -> Users_mpmFBisfcBDqTzuxVTHy_city
+	Users_mpmFBisfcBDqTzuxVTHy_username [label="username: str" shape=oval]
+	Users -> Users_mpmFBisfcBDqTzuxVTHy_username
+	Users_mpmFBisfcBDqTzuxVTHy_state [label="state: str" shape=oval]
+	Users -> Users_mpmFBisfcBDqTzuxVTHy_state
+	Users_mzAC0nZ8eEjtjLex4ngU_uid [label="uid: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_uid
+	Users_mzAC0nZ8eEjtjLex4ngU_lastName [label="lastName: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_lastName
+	Users_mzAC0nZ8eEjtjLex4ngU_firstName [label="firstName: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_firstName
+	Users_mzAC0nZ8eEjtjLex4ngU_deviceToken [label="deviceToken: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_deviceToken
+	Users_mzAC0nZ8eEjtjLex4ngU_zipCode [label="zipCode: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_zipCode
+	Users_mzAC0nZ8eEjtjLex4ngU_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_dateOfBirth
+	Users_mzAC0nZ8eEjtjLex4ngU_phoneNo [label="phoneNo: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_phoneNo
+	Users_mzAC0nZ8eEjtjLex4ngU_city [label="city: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_city
+	Users_mzAC0nZ8eEjtjLex4ngU_image [label="image: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_image
+	Users_mzAC0nZ8eEjtjLex4ngU_doc2 [label="doc2: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_doc2
+	Users_mzAC0nZ8eEjtjLex4ngU_doc1 [label="doc1: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_doc1
+	Users_mzAC0nZ8eEjtjLex4ngU_address [label="address: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_address
+	Users_mzAC0nZ8eEjtjLex4ngU_gender [label="gender: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_gender
+	Users_mzAC0nZ8eEjtjLex4ngU_state [label="state: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_state
+	Users_mzAC0nZ8eEjtjLex4ngU_username [label="username: str" shape=oval]
+	Users -> Users_mzAC0nZ8eEjtjLex4ngU_username
+	Users_qC31CD9GNm4UWVjdiihJ_uid [label="uid: NoneType" shape=oval]
+	Users -> Users_qC31CD9GNm4UWVjdiihJ_uid
+	Users_qC31CD9GNm4UWVjdiihJ_lastName [label="lastName: str" shape=oval]
+	Users -> Users_qC31CD9GNm4UWVjdiihJ_lastName
+	Users_qC31CD9GNm4UWVjdiihJ_firstName [label="firstName: str" shape=oval]
+	Users -> Users_qC31CD9GNm4UWVjdiihJ_firstName
+	Users_qC31CD9GNm4UWVjdiihJ_zipCode [label="zipCode: str" shape=oval]
+	Users -> Users_qC31CD9GNm4UWVjdiihJ_zipCode
+	Users_qC31CD9GNm4UWVjdiihJ_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Users -> Users_qC31CD9GNm4UWVjdiihJ_dateOfBirth
+	Users_qC31CD9GNm4UWVjdiihJ_phoneNo [label="phoneNo: str" shape=oval]
+	Users -> Users_qC31CD9GNm4UWVjdiihJ_phoneNo
+	Users_qC31CD9GNm4UWVjdiihJ_city [label="city: str" shape=oval]
+	Users -> Users_qC31CD9GNm4UWVjdiihJ_city
+	Users_qC31CD9GNm4UWVjdiihJ_image [label="image: str" shape=oval]
+	Users -> Users_qC31CD9GNm4UWVjdiihJ_image
+	Users_qC31CD9GNm4UWVjdiihJ_doc2 [label="doc2: str" shape=oval]
+	Users -> Users_qC31CD9GNm4UWVjdiihJ_doc2
+	Users_qC31CD9GNm4UWVjdiihJ_doc1 [label="doc1: str" shape=oval]
+	Users -> Users_qC31CD9GNm4UWVjdiihJ_doc1
+	Users_qC31CD9GNm4UWVjdiihJ_address [label="address: str" shape=oval]
+	Users -> Users_qC31CD9GNm4UWVjdiihJ_address
+	Users_qC31CD9GNm4UWVjdiihJ_gender [label="gender: str" shape=oval]
+	Users -> Users_qC31CD9GNm4UWVjdiihJ_gender
+	Users_qC31CD9GNm4UWVjdiihJ_state [label="state: str" shape=oval]
+	Users -> Users_qC31CD9GNm4UWVjdiihJ_state
+	Users_qC31CD9GNm4UWVjdiihJ_username [label="username: str" shape=oval]
+	Users -> Users_qC31CD9GNm4UWVjdiihJ_username
+	Users_qCRjFOui3ZMLdsFj7Ah2_Age [label="Age: str" shape=oval]
+	Users -> Users_qCRjFOui3ZMLdsFj7Ah2_Age
+	Users_qCRjFOui3ZMLdsFj7Ah2_DOB [label="DOB: str" shape=oval]
+	Users -> Users_qCRjFOui3ZMLdsFj7Ah2_DOB
+	Users_qCRjFOui3ZMLdsFj7Ah2_FullName [label="FullName: str" shape=oval]
+	Users -> Users_qCRjFOui3ZMLdsFj7Ah2_FullName
+	Users_qCRjFOui3ZMLdsFj7Ah2_Id [label="Id: NoneType" shape=oval]
+	Users -> Users_qCRjFOui3ZMLdsFj7Ah2_Id
+	Users_uhcdUsRT5nOVZ8oVFQJ7_uid [label="uid: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_uid
+	Users_uhcdUsRT5nOVZ8oVFQJ7_lastName [label="lastName: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_lastName
+	Users_uhcdUsRT5nOVZ8oVFQJ7_firstName [label="firstName: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_firstName
+	Users_uhcdUsRT5nOVZ8oVFQJ7_deviceToken [label="deviceToken: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_deviceToken
+	Users_uhcdUsRT5nOVZ8oVFQJ7_zipCode [label="zipCode: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_zipCode
+	Users_uhcdUsRT5nOVZ8oVFQJ7_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_dateOfBirth
+	Users_uhcdUsRT5nOVZ8oVFQJ7_phoneNo [label="phoneNo: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_phoneNo
+	Users_uhcdUsRT5nOVZ8oVFQJ7_city [label="city: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_city
+	Users_uhcdUsRT5nOVZ8oVFQJ7_image [label="image: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_image
+	Users_uhcdUsRT5nOVZ8oVFQJ7_doc2 [label="doc2: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_doc2
+	Users_uhcdUsRT5nOVZ8oVFQJ7_doc1 [label="doc1: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_doc1
+	Users_uhcdUsRT5nOVZ8oVFQJ7_address [label="address: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_address
+	Users_uhcdUsRT5nOVZ8oVFQJ7_gender [label="gender: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_gender
+	Users_uhcdUsRT5nOVZ8oVFQJ7_state [label="state: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_state
+	Users_uhcdUsRT5nOVZ8oVFQJ7_username [label="username: str" shape=oval]
+	Users -> Users_uhcdUsRT5nOVZ8oVFQJ7_username
+	Users_wCHYZADObJVoL5L554oT_uid [label="uid: NoneType" shape=oval]
+	Users -> Users_wCHYZADObJVoL5L554oT_uid
+	Users_wCHYZADObJVoL5L554oT_lastName [label="lastName: str" shape=oval]
+	Users -> Users_wCHYZADObJVoL5L554oT_lastName
+	Users_wCHYZADObJVoL5L554oT_firstName [label="firstName: str" shape=oval]
+	Users -> Users_wCHYZADObJVoL5L554oT_firstName
+	Users_wCHYZADObJVoL5L554oT_zipCode [label="zipCode: str" shape=oval]
+	Users -> Users_wCHYZADObJVoL5L554oT_zipCode
+	Users_wCHYZADObJVoL5L554oT_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Users -> Users_wCHYZADObJVoL5L554oT_dateOfBirth
+	Users_wCHYZADObJVoL5L554oT_phoneNo [label="phoneNo: str" shape=oval]
+	Users -> Users_wCHYZADObJVoL5L554oT_phoneNo
+	Users_wCHYZADObJVoL5L554oT_city [label="city: str" shape=oval]
+	Users -> Users_wCHYZADObJVoL5L554oT_city
+	Users_wCHYZADObJVoL5L554oT_image [label="image: str" shape=oval]
+	Users -> Users_wCHYZADObJVoL5L554oT_image
+	Users_wCHYZADObJVoL5L554oT_doc2 [label="doc2: str" shape=oval]
+	Users -> Users_wCHYZADObJVoL5L554oT_doc2
+	Users_wCHYZADObJVoL5L554oT_doc1 [label="doc1: str" shape=oval]
+	Users -> Users_wCHYZADObJVoL5L554oT_doc1
+	Users_wCHYZADObJVoL5L554oT_address [label="address: str" shape=oval]
+	Users -> Users_wCHYZADObJVoL5L554oT_address
+	Users_wCHYZADObJVoL5L554oT_gender [label="gender: str" shape=oval]
+	Users -> Users_wCHYZADObJVoL5L554oT_gender
+	Users_wCHYZADObJVoL5L554oT_state [label="state: str" shape=oval]
+	Users -> Users_wCHYZADObJVoL5L554oT_state
+	Users_wCHYZADObJVoL5L554oT_username [label="username: str" shape=oval]
+	Users -> Users_wCHYZADObJVoL5L554oT_username
+	Users_wYwHmIYgvh6I6g1qF8GV_phoneNo [label="phoneNo: str" shape=oval]
+	Users -> Users_wYwHmIYgvh6I6g1qF8GV_phoneNo
+	Users_wYwHmIYgvh6I6g1qF8GV_lastName [label="lastName: str" shape=oval]
+	Users -> Users_wYwHmIYgvh6I6g1qF8GV_lastName
+	Users_wYwHmIYgvh6I6g1qF8GV_firstName [label="firstName: str" shape=oval]
+	Users -> Users_wYwHmIYgvh6I6g1qF8GV_firstName
+	Users_wYwHmIYgvh6I6g1qF8GV_image [label="image: str" shape=oval]
+	Users -> Users_wYwHmIYgvh6I6g1qF8GV_image
+	Users_wYwHmIYgvh6I6g1qF8GV_doc2 [label="doc2: str" shape=oval]
+	Users -> Users_wYwHmIYgvh6I6g1qF8GV_doc2
+	Users_wYwHmIYgvh6I6g1qF8GV_doc1 [label="doc1: str" shape=oval]
+	Users -> Users_wYwHmIYgvh6I6g1qF8GV_doc1
+	Users_wYwHmIYgvh6I6g1qF8GV_zipCode [label="zipCode: str" shape=oval]
+	Users -> Users_wYwHmIYgvh6I6g1qF8GV_zipCode
+	Users_wYwHmIYgvh6I6g1qF8GV_address [label="address: str" shape=oval]
+	Users -> Users_wYwHmIYgvh6I6g1qF8GV_address
+	Users_wYwHmIYgvh6I6g1qF8GV_gender [label="gender: str" shape=oval]
+	Users -> Users_wYwHmIYgvh6I6g1qF8GV_gender
+	Users_wYwHmIYgvh6I6g1qF8GV_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Users -> Users_wYwHmIYgvh6I6g1qF8GV_dateOfBirth
+	Users_wYwHmIYgvh6I6g1qF8GV_city [label="city: str" shape=oval]
+	Users -> Users_wYwHmIYgvh6I6g1qF8GV_city
+	Users_wYwHmIYgvh6I6g1qF8GV_username [label="username: str" shape=oval]
+	Users -> Users_wYwHmIYgvh6I6g1qF8GV_username
+	Users_wYwHmIYgvh6I6g1qF8GV_state [label="state: str" shape=oval]
+	Users -> Users_wYwHmIYgvh6I6g1qF8GV_state
+	Users_x5pXH8AWR1TOz7xhaPg0_phoneNo [label="phoneNo: str" shape=oval]
+	Users -> Users_x5pXH8AWR1TOz7xhaPg0_phoneNo
+	Users_x5pXH8AWR1TOz7xhaPg0_lastName [label="lastName: str" shape=oval]
+	Users -> Users_x5pXH8AWR1TOz7xhaPg0_lastName
+	Users_x5pXH8AWR1TOz7xhaPg0_firstName [label="firstName: str" shape=oval]
+	Users -> Users_x5pXH8AWR1TOz7xhaPg0_firstName
+	Users_x5pXH8AWR1TOz7xhaPg0_image [label="image: str" shape=oval]
+	Users -> Users_x5pXH8AWR1TOz7xhaPg0_image
+	Users_x5pXH8AWR1TOz7xhaPg0_doc2 [label="doc2: str" shape=oval]
+	Users -> Users_x5pXH8AWR1TOz7xhaPg0_doc2
+	Users_x5pXH8AWR1TOz7xhaPg0_doc1 [label="doc1: str" shape=oval]
+	Users -> Users_x5pXH8AWR1TOz7xhaPg0_doc1
+	Users_x5pXH8AWR1TOz7xhaPg0_zipCode [label="zipCode: str" shape=oval]
+	Users -> Users_x5pXH8AWR1TOz7xhaPg0_zipCode
+	Users_x5pXH8AWR1TOz7xhaPg0_address [label="address: str" shape=oval]
+	Users -> Users_x5pXH8AWR1TOz7xhaPg0_address
+	Users_x5pXH8AWR1TOz7xhaPg0_gender [label="gender: str" shape=oval]
+	Users -> Users_x5pXH8AWR1TOz7xhaPg0_gender
+	Users_x5pXH8AWR1TOz7xhaPg0_dateOfBirth [label="dateOfBirth: str" shape=oval]
+	Users -> Users_x5pXH8AWR1TOz7xhaPg0_dateOfBirth
+	Users_x5pXH8AWR1TOz7xhaPg0_city [label="city: str" shape=oval]
+	Users -> Users_x5pXH8AWR1TOz7xhaPg0_city
+	Users_x5pXH8AWR1TOz7xhaPg0_username [label="username: str" shape=oval]
+	Users -> Users_x5pXH8AWR1TOz7xhaPg0_username
+	Users_x5pXH8AWR1TOz7xhaPg0_state [label="state: str" shape=oval]
+	Users -> Users_x5pXH8AWR1TOz7xhaPg0_state
+	VideoDetails [shape=box]
+	VideoDetails_2zbDFQba4Lr9P5aI3TDC_duration [label="duration: str" shape=oval]
+	VideoDetails -> VideoDetails_2zbDFQba4Lr9P5aI3TDC_duration
+	VideoDetails_2zbDFQba4Lr9P5aI3TDC_videoTitle [label="videoTitle: str" shape=oval]
+	VideoDetails -> VideoDetails_2zbDFQba4Lr9P5aI3TDC_videoTitle
+	VideoDetails_2zbDFQba4Lr9P5aI3TDC_videoLoc [label="videoLoc: str" shape=oval]
+	VideoDetails -> VideoDetails_2zbDFQba4Lr9P5aI3TDC_videoLoc
+	VideoDetails_2zbDFQba4Lr9P5aI3TDC_videoId [label="videoId: NoneType" shape=oval]
+	VideoDetails -> VideoDetails_2zbDFQba4Lr9P5aI3TDC_videoId
+	VideoDetails_3BmSw2GXxV1Qq2sxnV5M_duration [label="duration: str" shape=oval]
+	VideoDetails -> VideoDetails_3BmSw2GXxV1Qq2sxnV5M_duration
+	VideoDetails_3BmSw2GXxV1Qq2sxnV5M_videoTitle [label="videoTitle: str" shape=oval]
+	VideoDetails -> VideoDetails_3BmSw2GXxV1Qq2sxnV5M_videoTitle
+	VideoDetails_3BmSw2GXxV1Qq2sxnV5M_videoLoc [label="videoLoc: str" shape=oval]
+	VideoDetails -> VideoDetails_3BmSw2GXxV1Qq2sxnV5M_videoLoc
+	VideoDetails_3BmSw2GXxV1Qq2sxnV5M_videoId [label="videoId: NoneType" shape=oval]
+	VideoDetails -> VideoDetails_3BmSw2GXxV1Qq2sxnV5M_videoId
+	VideoDetails_5wa4s9a593n6c5WbUVXy_videoTitle [label="videoTitle: str" shape=oval]
+	VideoDetails -> VideoDetails_5wa4s9a593n6c5WbUVXy_videoTitle
+	VideoDetails_5wa4s9a593n6c5WbUVXy_instructorId [label="instructorId: str" shape=oval]
+	VideoDetails -> VideoDetails_5wa4s9a593n6c5WbUVXy_instructorId
+	VideoDetails_5wa4s9a593n6c5WbUVXy_thumbnail [label="thumbnail: str" shape=oval]
+	VideoDetails -> VideoDetails_5wa4s9a593n6c5WbUVXy_thumbnail
+	VideoDetails_5wa4s9a593n6c5WbUVXy_duration [label="duration: str" shape=oval]
+	VideoDetails -> VideoDetails_5wa4s9a593n6c5WbUVXy_duration
+	VideoDetails_5wa4s9a593n6c5WbUVXy_subject [label="subject: str" shape=oval]
+	VideoDetails -> VideoDetails_5wa4s9a593n6c5WbUVXy_subject
+	VideoDetails_5wa4s9a593n6c5WbUVXy_videoId [label="videoId: str" shape=oval]
+	VideoDetails -> VideoDetails_5wa4s9a593n6c5WbUVXy_videoId
+	VideoDetails_5wa4s9a593n6c5WbUVXy_keywords [label="keywords: list" shape=oval]
+	VideoDetails -> VideoDetails_5wa4s9a593n6c5WbUVXy_keywords
+	VideoDetails_5wa4s9a593n6c5WbUVXy_videoDescription [label="videoDescription: str" shape=oval]
+	VideoDetails -> VideoDetails_5wa4s9a593n6c5WbUVXy_videoDescription
+	VideoDetails_5wa4s9a593n6c5WbUVXy_difficultyLevel [label="difficultyLevel: str" shape=oval]
+	VideoDetails -> VideoDetails_5wa4s9a593n6c5WbUVXy_difficultyLevel
+	VideoDetails_5wa4s9a593n6c5WbUVXy_videoLoc [label="videoLoc: str" shape=oval]
+	VideoDetails -> VideoDetails_5wa4s9a593n6c5WbUVXy_videoLoc
+	VideoDetails_5wa4s9a593n6c5WbUVXy_instructorName [label="instructorName: str" shape=oval]
+	VideoDetails -> VideoDetails_5wa4s9a593n6c5WbUVXy_instructorName
+	VideoDetails_9U3YNwdaSsctpnmatukI_duration [label="duration: str" shape=oval]
+	VideoDetails -> VideoDetails_9U3YNwdaSsctpnmatukI_duration
+	VideoDetails_9U3YNwdaSsctpnmatukI_videoTitle [label="videoTitle: str" shape=oval]
+	VideoDetails -> VideoDetails_9U3YNwdaSsctpnmatukI_videoTitle
+	VideoDetails_9U3YNwdaSsctpnmatukI_videoLoc [label="videoLoc: str" shape=oval]
+	VideoDetails -> VideoDetails_9U3YNwdaSsctpnmatukI_videoLoc
+	VideoDetails_9U3YNwdaSsctpnmatukI_videoId [label="videoId: NoneType" shape=oval]
+	VideoDetails -> VideoDetails_9U3YNwdaSsctpnmatukI_videoId
+	VideoDetails_ApmqNPdKC4hOijcorwZt_duration [label="duration: str" shape=oval]
+	VideoDetails -> VideoDetails_ApmqNPdKC4hOijcorwZt_duration
+	VideoDetails_ApmqNPdKC4hOijcorwZt_videoTitle [label="videoTitle: str" shape=oval]
+	VideoDetails -> VideoDetails_ApmqNPdKC4hOijcorwZt_videoTitle
+	VideoDetails_ApmqNPdKC4hOijcorwZt_videoLoc [label="videoLoc: str" shape=oval]
+	VideoDetails -> VideoDetails_ApmqNPdKC4hOijcorwZt_videoLoc
+	VideoDetails_ApmqNPdKC4hOijcorwZt_videoId [label="videoId: NoneType" shape=oval]
+	VideoDetails -> VideoDetails_ApmqNPdKC4hOijcorwZt_videoId
+	VideoDetails_O21pvYT7Q9y2T5bscgsE_duration [label="duration: str" shape=oval]
+	VideoDetails -> VideoDetails_O21pvYT7Q9y2T5bscgsE_duration
+	VideoDetails_O21pvYT7Q9y2T5bscgsE_videoTitle [label="videoTitle: str" shape=oval]
+	VideoDetails -> VideoDetails_O21pvYT7Q9y2T5bscgsE_videoTitle
+	VideoDetails_O21pvYT7Q9y2T5bscgsE_videoLoc [label="videoLoc: str" shape=oval]
+	VideoDetails -> VideoDetails_O21pvYT7Q9y2T5bscgsE_videoLoc
+	VideoDetails_O21pvYT7Q9y2T5bscgsE_videoId [label="videoId: NoneType" shape=oval]
+	VideoDetails -> VideoDetails_O21pvYT7Q9y2T5bscgsE_videoId
+	VideoDetails_QeZQyphXNT9qpZ5DH5pb_duration [label="duration: str" shape=oval]
+	VideoDetails -> VideoDetails_QeZQyphXNT9qpZ5DH5pb_duration
+	VideoDetails_QeZQyphXNT9qpZ5DH5pb_videoTitle [label="videoTitle: str" shape=oval]
+	VideoDetails -> VideoDetails_QeZQyphXNT9qpZ5DH5pb_videoTitle
+	VideoDetails_QeZQyphXNT9qpZ5DH5pb_videoLoc [label="videoLoc: str" shape=oval]
+	VideoDetails -> VideoDetails_QeZQyphXNT9qpZ5DH5pb_videoLoc
+	VideoDetails_QeZQyphXNT9qpZ5DH5pb_videoId [label="videoId: NoneType" shape=oval]
+	VideoDetails -> VideoDetails_QeZQyphXNT9qpZ5DH5pb_videoId
+	VideoDetails_bSauT1Ka2PhMzAL8jqE2_duration [label="duration: str" shape=oval]
+	VideoDetails -> VideoDetails_bSauT1Ka2PhMzAL8jqE2_duration
+	VideoDetails_bSauT1Ka2PhMzAL8jqE2_videoTitle [label="videoTitle: str" shape=oval]
+	VideoDetails -> VideoDetails_bSauT1Ka2PhMzAL8jqE2_videoTitle
+	VideoDetails_bSauT1Ka2PhMzAL8jqE2_videoLoc [label="videoLoc: str" shape=oval]
+	VideoDetails -> VideoDetails_bSauT1Ka2PhMzAL8jqE2_videoLoc
+	VideoDetails_bSauT1Ka2PhMzAL8jqE2_videoId [label="videoId: NoneType" shape=oval]
+	VideoDetails -> VideoDetails_bSauT1Ka2PhMzAL8jqE2_videoId
+	VideoDetails_esyxRtS8EdwWUwFhhKfo_duration [label="duration: str" shape=oval]
+	VideoDetails -> VideoDetails_esyxRtS8EdwWUwFhhKfo_duration
+	VideoDetails_esyxRtS8EdwWUwFhhKfo_videoTitle [label="videoTitle: str" shape=oval]
+	VideoDetails -> VideoDetails_esyxRtS8EdwWUwFhhKfo_videoTitle
+	VideoDetails_esyxRtS8EdwWUwFhhKfo_videoLoc [label="videoLoc: str" shape=oval]
+	VideoDetails -> VideoDetails_esyxRtS8EdwWUwFhhKfo_videoLoc
+	VideoDetails_esyxRtS8EdwWUwFhhKfo_videoId [label="videoId: NoneType" shape=oval]
+	VideoDetails -> VideoDetails_esyxRtS8EdwWUwFhhKfo_videoId
+	VideoDetails_iEcleyyEbwWXlDQFUS9G_duration [label="duration: str" shape=oval]
+	VideoDetails -> VideoDetails_iEcleyyEbwWXlDQFUS9G_duration
+	VideoDetails_iEcleyyEbwWXlDQFUS9G_videoTitle [label="videoTitle: str" shape=oval]
+	VideoDetails -> VideoDetails_iEcleyyEbwWXlDQFUS9G_videoTitle
+	VideoDetails_iEcleyyEbwWXlDQFUS9G_videoLoc [label="videoLoc: str" shape=oval]
+	VideoDetails -> VideoDetails_iEcleyyEbwWXlDQFUS9G_videoLoc
+	VideoDetails_iEcleyyEbwWXlDQFUS9G_videoId [label="videoId: NoneType" shape=oval]
+	VideoDetails -> VideoDetails_iEcleyyEbwWXlDQFUS9G_videoId
+	VideoDetails_mg1qQLPZNRZiGCL8oyTs_duration [label="duration: str" shape=oval]
+	VideoDetails -> VideoDetails_mg1qQLPZNRZiGCL8oyTs_duration
+	VideoDetails_mg1qQLPZNRZiGCL8oyTs_videoTitle [label="videoTitle: str" shape=oval]
+	VideoDetails -> VideoDetails_mg1qQLPZNRZiGCL8oyTs_videoTitle
+	VideoDetails_mg1qQLPZNRZiGCL8oyTs_videoLoc [label="videoLoc: str" shape=oval]
+	VideoDetails -> VideoDetails_mg1qQLPZNRZiGCL8oyTs_videoLoc
+	VideoDetails_mg1qQLPZNRZiGCL8oyTs_videoId [label="videoId: NoneType" shape=oval]
+	VideoDetails -> VideoDetails_mg1qQLPZNRZiGCL8oyTs_videoId
+	VideoDetails_qmF12QjlHuGLzLcFPvsb_duration [label="duration: str" shape=oval]
+	VideoDetails -> VideoDetails_qmF12QjlHuGLzLcFPvsb_duration
+	VideoDetails_qmF12QjlHuGLzLcFPvsb_videoTitle [label="videoTitle: str" shape=oval]
+	VideoDetails -> VideoDetails_qmF12QjlHuGLzLcFPvsb_videoTitle
+	VideoDetails_qmF12QjlHuGLzLcFPvsb_videoLoc [label="videoLoc: str" shape=oval]
+	VideoDetails -> VideoDetails_qmF12QjlHuGLzLcFPvsb_videoLoc
+	VideoDetails_qmF12QjlHuGLzLcFPvsb_videoId [label="videoId: NoneType" shape=oval]
+	VideoDetails -> VideoDetails_qmF12QjlHuGLzLcFPvsb_videoId
+	Visit [shape=box]
+	Visit_7T0mjAIVsEcWFU5hu1Nf_visitMentorId [label="visitMentorId: str" shape=oval]
+	Visit -> Visit_7T0mjAIVsEcWFU5hu1Nf_visitMentorId
+	Visit_7T0mjAIVsEcWFU5hu1Nf_visitLocation [label="visitLocation: str" shape=oval]
+	Visit -> Visit_7T0mjAIVsEcWFU5hu1Nf_visitLocation
+	Visit_7T0mjAIVsEcWFU5hu1Nf_visitPurpose [label="visitPurpose: str" shape=oval]
+	Visit -> Visit_7T0mjAIVsEcWFU5hu1Nf_visitPurpose
+	Visit_7T0mjAIVsEcWFU5hu1Nf_visitTime [label="visitTime: str" shape=oval]
+	Visit -> Visit_7T0mjAIVsEcWFU5hu1Nf_visitTime
+	Visit_7T0mjAIVsEcWFU5hu1Nf_visitDate [label="visitDate: str" shape=oval]
+	Visit -> Visit_7T0mjAIVsEcWFU5hu1Nf_visitDate
+	Visit_7T0mjAIVsEcWFU5hu1Nf_location [label="location: str" shape=oval]
+	Visit -> Visit_7T0mjAIVsEcWFU5hu1Nf_location
+	Visit_7T0mjAIVsEcWFU5hu1Nf_visitDescription [label="visitDescription: str" shape=oval]
+	Visit -> Visit_7T0mjAIVsEcWFU5hu1Nf_visitDescription
+	Visit_7T0mjAIVsEcWFU5hu1Nf_visitId [label="visitId: str" shape=oval]
+	Visit -> Visit_7T0mjAIVsEcWFU5hu1Nf_visitId
+	timestamps [shape=box]
+	timestamps_2wft3bEbX1BYkBHQ5xYV_timestamp [label="timestamp: DatetimeWithNanoseconds" shape=oval]
+	timestamps -> timestamps_2wft3bEbX1BYkBHQ5xYV_timestamp
+	timestamps_4Nw4hbTrevc7bdiKFoZK_timestamp [label="timestamp: NoneType" shape=oval]
+	timestamps -> timestamps_4Nw4hbTrevc7bdiKFoZK_timestamp
+	timestamps_6sxmr6w4BB5U1W3c1NWl_timestamp [label="timestamp: DatetimeWithNanoseconds" shape=oval]
+	timestamps -> timestamps_6sxmr6w4BB5U1W3c1NWl_timestamp
+	timestamps_EWdRSpn2hhPVpCqxSRz2_timestamp [label="timestamp: NoneType" shape=oval]
+	timestamps -> timestamps_EWdRSpn2hhPVpCqxSRz2_timestamp
+	timestamps_IEsTajGyR1G9VeJECwTW_timestamp [label="timestamp: DatetimeWithNanoseconds" shape=oval]
+	timestamps -> timestamps_IEsTajGyR1G9VeJECwTW_timestamp
+	timestamps_IcaEOPcYJeJZgUDgBCxB_timestamp [label="timestamp: NoneType" shape=oval]
+	timestamps -> timestamps_IcaEOPcYJeJZgUDgBCxB_timestamp
+	timestamps_JmTokrM75joat31xp7Ff_timestamp [label="timestamp: DatetimeWithNanoseconds" shape=oval]
+	timestamps -> timestamps_JmTokrM75joat31xp7Ff_timestamp
+	timestamps_O3HmNSR9JKs12YMxuN2P_timestamp [label="timestamp: str" shape=oval]
+	timestamps -> timestamps_O3HmNSR9JKs12YMxuN2P_timestamp
+	timestamps_Sr7x5qGnceaBmOOkX5tk_timestamp [label="timestamp: DatetimeWithNanoseconds" shape=oval]
+	timestamps -> timestamps_Sr7x5qGnceaBmOOkX5tk_timestamp
+	timestamps_hXbsEV975EmkMwrDCt5f_timestamp [label="timestamp: NoneType" shape=oval]
+	timestamps -> timestamps_hXbsEV975EmkMwrDCt5f_timestamp
+	timestamps_nVs7KXLkfmAgpYWnfE0K_timestamp [label="timestamp: DatetimeWithNanoseconds" shape=oval]
+	timestamps -> timestamps_nVs7KXLkfmAgpYWnfE0K_timestamp
+	timestamps_yCVZ6Px87UW5vMkONzjR_timestamp [label="timestamp: NoneType" shape=oval]
+	timestamps -> timestamps_yCVZ6Px87UW5vMkONzjR_timestamp
+	timestamps_yYFdPL0lGwYsMAd5lqtk_timestamp [label="timestamp: DatetimeWithNanoseconds" shape=oval]
+	timestamps -> timestamps_yYFdPL0lGwYsMAd5lqtk_timestamp
+	timestamps_znNZxUz9hHzsLArPAn51_timestamp [label="timestamp: DatetimeWithNanoseconds" shape=oval]
+	timestamps -> timestamps_znNZxUz9hHzsLArPAn51_timestamp
+}
